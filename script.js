@@ -24,3 +24,11 @@ tl.to("#page1", {
     scale: 1,
     duration: 0.8
 })
+
+
+// document.querySelector('.cards.a').addEventListener('mouseover', function () {
+//     document.querySelector('.cards.b').style.transform = 'translateX(400px)';
+//     document.querySelector('.cards.c').style.transform = 'translateX(400px)';
+//     document.querySelector('.cards.d').style.transform = 'translateX(400px)';
+
+// });

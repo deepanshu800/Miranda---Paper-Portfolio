@@ -460,35 +460,109 @@ body {
 /* Card Effect - My first Effect  */
 
 #cardsEffect {
-  height: 400px;
+  min-height: 350px;
   background-image: url(images/backgroundIMGAGW.jpg);
-  padding: 40px;
   position: relative;
 }
 
 #cardsEffect .cards {
-  width: 40%;
+  width: 45%;
   height: 100%;
   border: 2px solid black;
   position: absolute;
+  border-radius: 10px;
+  padding: 30px;
 }
-.cards .a {
-  left: 20px;
+
+.cards.inner-div {
+  width: 90%;
+  background-color: black;
+  height: 90%;
+}
+.cards.a {
+  left: 30px;
   background-color: blue;
-  z-index: 9;
+  z-index: 1;
 }
-.cards .b {
-  left: 80px;
+.cards.b {
+  left: 320px;
+  z-index: 2;
   background-color: skyblue;
 }
-.cards .c {
-  left: 140px;
+.cards.c {
+  z-index: 3;
+  left: 610px;
   background-color: yellow;
 }
-.cards .d {
-  left: 200px;
+.cards.d {
+  z-index: 4;
+  left: 900px;
   background-color: navajowhite;
 }
+.cards p {
+  font-size: 25px;
+  font-family: "Editorial New Light";
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.cards.inner-div.user-name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+/* Infinte Scroll Scale */
+#infinite-scroll {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background-image: url(images/backgroundIMGAGW.jpg);
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+#infinite-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+#infinite-scroll h5 {
+  font-family: "Editorial New Light";
+  font-size: 60px;
+  display: inline-block;
+  margin-left: 4px;
+  animation-name: scroll;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#infinite-scroll h5 span {
+  font-family: Domaine;
+  color: #c2bbb1;
+  background-color: #1c1c1a;
+  padding: 5px 10px;
+  margin-right: 20px;
+  font-size: 55px;
+}
+#infinite-scroll:hover h5 {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 /* Yahan se phle ka sara code theek hi */
 /* to yahan se suru hota hai bache hue kuch nice effects ko smjhne ka safar ok */
 /* #page2 {
