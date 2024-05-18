@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Domain";
+  src: url("/fonts/Domain.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -205,6 +212,283 @@ body {
   letter-spacing: -20px;
 }
 
+#page2 {
+  width: 100%;
+  min-height: 80vh;
+  padding: 60px 10px;
+  background-image: url(images/backgroundIMGAGW.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+#page2-left {
+  width: 33%;
+  height: 100%;
+  border-right: 1px solid #222;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+#page2-left img {
+  width: 94%;
+  border: 1px solid #222;
+  margin-bottom: 30px;
+}
+#page2-left h2 {
+  text-transform: uppercase;
+  font-family: Canopee;
+  font-weight: 100;
+  font-size: 105px;
+  line-height: 120px;
+  margin-bottom: 20px;
+  color: #1c1c1a;
+}
+#page2-left h2 span {
+  font-size: 185px;
+}
+#page2-left p {
+  font-family: "Editorial New Light";
+  font-size: 30px;
+  color: #1c1c1a;
+  font-weight: 300;
+}
+#page2-left p span {
+  font-size: 110px;
+  font-family: Canopee;
+  float: left;
+  color: #c2bbb1;
+  background-color: #1c1c1a;
+  line-height: 90px;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+#page2-right {
+  width: 67%;
+  height: 100%;
+  padding: 20px;
+}
+#page2-right img {
+  margin-left: 30px;
+  width: 96%;
+  /* padding: 10px; */
+}
+#page2-right h5 {
+  font-size: 110px;
+  margin-top: 20px;
+  color: #1c1c1a;
+  font-weight: 100;
+  font-family: Canopee;
+  line-height: 100px;
+}
+
+#big-website-div {
+  height: 400px;
+  background-image: url(images/backgroundIMGAGW.jpg);
+  transform: translateY(-1px);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+#big-website-div #big-website {
+  background-color: #1c1c1a;
+  color: white;
+  width: 77%;
+  height: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#big-website h1 {
+  font-size: 410px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Canopee;
+  font-weight: 100;
+}
+
+#page3 {
+  background-image: url(images/backgroundIMGAGW.jpg);
+  transform: translateY(-2px);
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 30px;
+  padding: 30px 30px 50px 30px;
+  display: flex;
+}
+#page3-left {
+  width: 70%;
+  height: 100%;
+}
+#page3-left #page3-left-top {
+  width: 100%;
+  height: 300px;
+  /* background-color: red; */
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 40px;
+}
+
+#page3-left-top #upcoming-next {
+  width: 35%;
+  height: 100%;
+}
+#upcoming-next h1 {
+  font-size: 55px;
+  font-family: Domain;
+  font-weight: 100;
+  color: #1c1c1a;
+  letter-spacing: -2px;
+}
+#upcoming-next h4 {
+  font-size: 35px;
+  font-weight: 100;
+  font-family: "Editorial New Light";
+  color: #1c1c1a;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+#upcoming-next p {
+  font-size: 20px;
+  font-family: "Editorial New Light";
+  color: #63605c;
+}
+#upcoming-next p span {
+  font-family: canopee;
+  color: #1c1c1a;
+  font-size: 20px;
+}
+
+#page3-left-top #unexpected-time {
+  width: 55%;
+  height: 100%;
+  /* background-color: blue; */
+  border-left: 1px solid #63605c;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+#unexpected-time #image-div {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+
+#unexpected-time h1 {
+  font-family: Domain;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: #1c1c1a;
+  margin-top: 10px;
+}
+#unexpected-time h4 {
+  font-family: "Editorial New Light";
+  color: #63605c;
+}
+
+#page3-left img {
+  width: 90%;
+}
+
+/* page - 3 RIGHT part */
+
+#page3-right {
+  width: 35%;
+  padding-left: 40px;
+  border-left: 1px solid #63605c;
+}
+#page3-right h1 {
+  font-size: 95px;
+  font-family: canopee;
+  font-weight: 100;
+  line-height: 120px;
+}
+#page3-right h1 span {
+  font-size: 190px;
+}
+
+#page3-right p {
+  font-size: 30px;
+  font-family: "Editorial New Light";
+  color: #222;
+  margin-top: 30px;
+}
+#page3-right p span {
+  font-size: 100px;
+  background-color: #1c1c1a;
+  color: #c2bbb1;
+  font-family: canopee;
+  float: left;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+#page3-right #arrow {
+  margin-top: 50px;
+  width: 80%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #222;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#arrow img {
+  transform: translateX(-200px);
+  transition: all ease 0.5s;
+}
+#arrow p {
+  font-family: canopee;
+  font-size: 50px;
+  transform: translateX(-50px);
+  text-align: center;
+  transition: all ease 0.5s;
+}
+
+#arrow:hover img {
+  transform: translateX(100px);
+}
+
+#arrow:hover p {
+  transform: translateX(210px);
+}
+
+/* Card Effect - My first Effect  */
+
+#cardsEffect {
+  height: 400px;
+  background-image: url(images/backgroundIMGAGW.jpg);
+  padding: 40px;
+  position: relative;
+}
+
+#cardsEffect .cards {
+  width: 40%;
+  height: 100%;
+  border: 2px solid black;
+  position: absolute;
+}
+.cards .a {
+  left: 20px;
+  background-color: blue;
+  z-index: 9;
+}
+.cards .b {
+  left: 80px;
+  background-color: skyblue;
+}
+.cards .c {
+  left: 140px;
+  background-color: yellow;
+}
+.cards .d {
+  left: 200px;
+  background-color: navajowhite;
+}
 /* Yahan se phle ka sara code theek hi */
 /* to yahan se suru hota hai bache hue kuch nice effects ko smjhne ka safar ok */
 /* #page2 {
@@ -245,7 +529,7 @@ body {
 
 /* page3 ek or effect seekh rha hun me abhi isse
  */
-/* 
+/*
 #page3 {
   width: 100%;
   height: 100px;
@@ -279,11 +563,14 @@ body {
   font-size: 55px;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
+/* 
+ {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 } */
